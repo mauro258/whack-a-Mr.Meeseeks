@@ -1,0 +1,37 @@
+body {
+    
+    text-align: center;
+    background-image: url("./imgs/rick-and-morty-bg.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    background-color: #132d43;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    border: 3px solid #97B8C5;
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url("./imgs/portal.png");
+    background-size: cover;
+}
+
+#board div img{
+    width: 120px;
+    height: 120px;
+
+    user-select: none;
+    -moz-user-select:none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+}
